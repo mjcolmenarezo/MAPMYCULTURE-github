@@ -12,6 +12,10 @@
 		5DC5C28B2A79DBFA0032E575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5C28A2A79DBFA0032E575 /* Assets.xcassets */; };
 		5DC5C28E2A79DBFA0032E575 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5C28D2A79DBFA0032E575 /* Preview Assets.xcassets */; };
 		5DC5C2952A79DC440032E575 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5C2942A79DC440032E575 /* GameView.swift */; };
+		BD9319212A7B09C500A5EAF4 /* Nigeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9319202A7B09C500A5EAF4 /* Nigeria.swift */; };
+		BD9319232A7B09E000A5EAF4 /* Venezuela.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9319222A7B09E000A5EAF4 /* Venezuela.swift */; };
+		BD9319252A7B09F000A5EAF4 /* Argentina.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9319242A7B09F000A5EAF4 /* Argentina.swift */; };
+		BD9319272A7B09FD00A5EAF4 /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9319262A7B09FD00A5EAF4 /* India.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		5DC5C28A2A79DBFA0032E575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DC5C28D2A79DBFA0032E575 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5DC5C2942A79DC440032E575 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		BD9319202A7B09C500A5EAF4 /* Nigeria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nigeria.swift; sourceTree = "<group>"; };
+		BD9319222A7B09E000A5EAF4 /* Venezuela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venezuela.swift; sourceTree = "<group>"; };
+		BD9319242A7B09F000A5EAF4 /* Argentina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argentina.swift; sourceTree = "<group>"; };
+		BD9319262A7B09FD00A5EAF4 /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 				5DC5C2862A79DBF80032E575 /* MAPMYCULTUREApp.swift */,
 				5DC5C2882A79DBF80032E575 /* ContentView.swift */,
 				5DC5C2942A79DC440032E575 /* GameView.swift */,
+				BD9319202A7B09C500A5EAF4 /* Nigeria.swift */,
+				BD9319222A7B09E000A5EAF4 /* Venezuela.swift */,
+				BD9319242A7B09F000A5EAF4 /* Argentina.swift */,
+				BD9319262A7B09FD00A5EAF4 /* India.swift */,
 				5DC5C28A2A79DBFA0032E575 /* Assets.xcassets */,
 				5DC5C28C2A79DBFA0032E575 /* Preview Content */,
 			);
@@ -141,8 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC5C2892A79DBF80032E575 /* ContentView.swift in Sources */,
+				BD9319252A7B09F000A5EAF4 /* Argentina.swift in Sources */,
 				5DC5C2952A79DC440032E575 /* GameView.swift in Sources */,
+				BD9319272A7B09FD00A5EAF4 /* India.swift in Sources */,
 				5DC5C2872A79DBF80032E575 /* MAPMYCULTUREApp.swift in Sources */,
+				BD9319212A7B09C500A5EAF4 /* Nigeria.swift in Sources */,
+				BD9319232A7B09E000A5EAF4 /* Venezuela.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

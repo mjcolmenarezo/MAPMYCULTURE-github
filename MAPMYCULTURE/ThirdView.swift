@@ -28,7 +28,7 @@ struct ThirdView: View {
                 .padding()
             
             Button("Sports") {
-                textTitle = "info"
+                textTitle = "Baseball is the most popular sport in Venezuela. Venezuelan baseball players regularly compete abroad, and many of them have been recruited by Major League teams in North America, like Miguel Cabrera."
                 
             }
             .font(.title2)
@@ -36,7 +36,7 @@ struct ThirdView: View {
             .tint(.green)
             
             Button("Food") {
-                textTitle = "info"
+                textTitle = "Venezuela's national dish is the Pabellon Criollo, but there are many other delicious foods like: Arepas, Tequeños, Empanadas, Cachapas, Pan de Jamon, Hallacas and many more."
                 
             }
             .font(.title2)
@@ -44,7 +44,7 @@ struct ThirdView: View {
             .tint(.green)
             
             Button("Capital") {
-                textTitle = "info"
+                textTitle = "The capital of Venezuela is Caracas which houses approximately 3,242,000 people."
                 
             }
             .font(.title2)
@@ -52,6 +52,8 @@ struct ThirdView: View {
             .tint(.green)
             
             Text(textTitle)
+                .multilineTextAlignment(.center)
+                .padding()
 
         }
     }

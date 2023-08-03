@@ -27,7 +27,7 @@ struct ForthView: View {
                 .padding()
             
             Button("Sports") {
-                textTitle = "info"
+                textTitle = "Football (American Soccer) is the most popular sport in Argentina. Beginning in 1891 Football has played a huge role in Argentina’s culture. Starting from a young age, children grow up playing in the streets or organized leagues with a dream of someday playing on a national level."
                 
             }
             .font(.title2)
@@ -35,7 +35,7 @@ struct ForthView: View {
             .tint(.green)
             
             Button("Food") {
-                textTitle = "info"
+                textTitle = "Argentina’s national dish is Asado. This is meat prepared over an open fire or grill, accompanied with red wine and a side dish like salad. Some other famous dishes are Empanadas, Dulce De Leche and more!"
                 
             }
             .font(.title2)
@@ -43,7 +43,7 @@ struct ForthView: View {
             .tint(.green)
             
             Button("Capital") {
-                textTitle = "info"
+                textTitle = "The capital of Argentina is the city of Buenos Aires which houses approximately 15 million people. Buenos Aires is located on the East side of Argentina."
                 
             }
             .font(.title2)
@@ -51,6 +51,8 @@ struct ForthView: View {
             .tint(.green)
             
             Text(textTitle)
+                .multilineTextAlignment(.center)
+                .padding()
 
         }
     }

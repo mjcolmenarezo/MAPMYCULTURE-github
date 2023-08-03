@@ -27,7 +27,7 @@ struct SecondView: View {
                 .padding()
             
             Button("Sports") {
-                textTitle = "info"
+                textTitle = "Football is the most popular sport in Nigeria. The Nigeria national football team competes regularly for international titles and many Nigerian footballers compete in Europe, particularly in England."
                 
             }
             .font(.title2)
@@ -35,7 +35,7 @@ struct SecondView: View {
             .tint(.green)
             
             Button("Food") {
-                textTitle = "info"
+                textTitle = "Popular Nigerian dishes include Jollof Rice, Pounded Yam with Ogbono Soup, Suya (Spicy Grilled Kebab), Pepper Soup, and Puff-Puff (Fried Sweet Dough Ball)."
                 
             }
             .font(.title2)
@@ -43,7 +43,7 @@ struct SecondView: View {
             .tint(.green)
             
             Button("Capital") {
-                textTitle = "info"
+                textTitle = "The capital of Nigeria is Abuja city which houses approximately 6,000,000 people. "
                 
             }
             .font(.title2)
@@ -51,6 +51,8 @@ struct SecondView: View {
             .tint(.green)
             
             Text(textTitle)
+                .multilineTextAlignment(.center)
+                .padding()
 
         }
     }

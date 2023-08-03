@@ -1,20 +1,20 @@
 //
-//  Venezuela.swift
+//  FifthView.swift
 //  MAPMYCULTURE
 //
-//  Created by scholar on 8/2/23.
+//  Created by Jodi Muller on 8/3/23.
 //
 
 import SwiftUI
 
-struct Venezuela: View {
+struct FifthView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct Venezuela_Previews: PreviewProvider {
+struct FifthView_Previews: PreviewProvider {
     static var previews: some View {
-        Venezuela()
+        FifthView()
     }
 }

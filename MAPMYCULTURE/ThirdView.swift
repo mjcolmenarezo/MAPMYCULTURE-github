@@ -1,20 +1,20 @@
 //
-//  Nigeria.swift
+//  ThirdView.swift
 //  MAPMYCULTURE
 //
-//  Created by scholar on 8/2/23.
+//  Created by Jodi Muller on 8/3/23.
 //
 
 import SwiftUI
 
-struct Nigeria: View {
+struct ThirdView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct Nigeria_Previews: PreviewProvider {
+struct ThirdView_Previews: PreviewProvider {
     static var previews: some View {
-        Nigeria()
+        ThirdView()
     }
 }

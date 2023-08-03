@@ -1,20 +1,20 @@
 //
-//  Argentina.swift
+//  SecondView.swift
 //  MAPMYCULTURE
 //
-//  Created by scholar on 8/2/23.
+//  Created by Jodi Muller on 8/3/23.
 //
 
 import SwiftUI
 
-struct Argentina: View {
+struct SecondView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct Argentina_Previews: PreviewProvider {
+struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        Argentina()
+        SecondView()
     }
 }

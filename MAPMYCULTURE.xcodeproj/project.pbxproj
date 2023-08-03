@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29184D662A7C1E47003F82DA /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29184D652A7C1E47003F82DA /* SecondView.swift */; };
+		29184D682A7C221E003F82DA /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29184D672A7C221E003F82DA /* ThirdView.swift */; };
+		29184D6A2A7C2297003F82DA /* ForthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29184D692A7C2297003F82DA /* ForthView.swift */; };
+		29184D6C2A7C22EC003F82DA /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29184D6B2A7C22EC003F82DA /* FifthView.swift */; };
 		5DC5C2872A79DBF80032E575 /* MAPMYCULTUREApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5C2862A79DBF80032E575 /* MAPMYCULTUREApp.swift */; };
 		5DC5C2892A79DBF80032E575 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5C2882A79DBF80032E575 /* ContentView.swift */; };
 		5DC5C28B2A79DBFA0032E575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5C28A2A79DBFA0032E575 /* Assets.xcassets */; };
 		5DC5C28E2A79DBFA0032E575 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5C28D2A79DBFA0032E575 /* Preview Assets.xcassets */; };
 		5DC5C2952A79DC440032E575 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5C2942A79DC440032E575 /* GameView.swift */; };
-		BD9319212A7B09C500A5EAF4 /* Nigeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9319202A7B09C500A5EAF4 /* Nigeria.swift */; };
-		BD9319232A7B09E000A5EAF4 /* Venezuela.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9319222A7B09E000A5EAF4 /* Venezuela.swift */; };
-		BD9319252A7B09F000A5EAF4 /* Argentina.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9319242A7B09F000A5EAF4 /* Argentina.swift */; };
-		BD9319272A7B09FD00A5EAF4 /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9319262A7B09FD00A5EAF4 /* India.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29184D652A7C1E47003F82DA /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		29184D672A7C221E003F82DA /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		29184D692A7C2297003F82DA /* ForthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthView.swift; sourceTree = "<group>"; };
+		29184D6B2A7C22EC003F82DA /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 		5DC5C2832A79DBF80032E575 /* MAPMYCULTURE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAPMYCULTURE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC5C2862A79DBF80032E575 /* MAPMYCULTUREApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPMYCULTUREApp.swift; sourceTree = "<group>"; };
 		5DC5C2882A79DBF80032E575 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DC5C28A2A79DBFA0032E575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DC5C28D2A79DBFA0032E575 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5DC5C2942A79DC440032E575 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		BD9319202A7B09C500A5EAF4 /* Nigeria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nigeria.swift; sourceTree = "<group>"; };
-		BD9319222A7B09E000A5EAF4 /* Venezuela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venezuela.swift; sourceTree = "<group>"; };
-		BD9319242A7B09F000A5EAF4 /* Argentina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argentina.swift; sourceTree = "<group>"; };
-		BD9319262A7B09FD00A5EAF4 /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +64,10 @@
 				5DC5C2862A79DBF80032E575 /* MAPMYCULTUREApp.swift */,
 				5DC5C2882A79DBF80032E575 /* ContentView.swift */,
 				5DC5C2942A79DC440032E575 /* GameView.swift */,
-				BD9319202A7B09C500A5EAF4 /* Nigeria.swift */,
-				BD9319222A7B09E000A5EAF4 /* Venezuela.swift */,
-				BD9319242A7B09F000A5EAF4 /* Argentina.swift */,
-				BD9319262A7B09FD00A5EAF4 /* India.swift */,
+				29184D652A7C1E47003F82DA /* SecondView.swift */,
+				29184D672A7C221E003F82DA /* ThirdView.swift */,
+				29184D692A7C2297003F82DA /* ForthView.swift */,
+				29184D6B2A7C22EC003F82DA /* FifthView.swift */,
 				5DC5C28A2A79DBFA0032E575 /* Assets.xcassets */,
 				5DC5C28C2A79DBFA0032E575 /* Preview Content */,
 			);
@@ -153,12 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC5C2892A79DBF80032E575 /* ContentView.swift in Sources */,
-				BD9319252A7B09F000A5EAF4 /* Argentina.swift in Sources */,
+				29184D682A7C221E003F82DA /* ThirdView.swift in Sources */,
+				29184D6A2A7C2297003F82DA /* ForthView.swift in Sources */,
 				5DC5C2952A79DC440032E575 /* GameView.swift in Sources */,
-				BD9319272A7B09FD00A5EAF4 /* India.swift in Sources */,
+				29184D662A7C1E47003F82DA /* SecondView.swift in Sources */,
+				29184D6C2A7C22EC003F82DA /* FifthView.swift in Sources */,
 				5DC5C2872A79DBF80032E575 /* MAPMYCULTUREApp.swift in Sources */,
-				BD9319212A7B09C500A5EAF4 /* Nigeria.swift in Sources */,
-				BD9319232A7B09E000A5EAF4 /* Venezuela.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

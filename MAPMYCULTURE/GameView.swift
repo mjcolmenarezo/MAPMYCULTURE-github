@@ -11,44 +11,48 @@ struct GameView: View {
     var body: some View {
         
             
-            
+        NavigationStack {
+
+        
             VStack {
                 Text("Pick A Destination!")
                     .font(.title)
                     .multilineTextAlignment(.center)
+                Spacer()
                     .padding(.vertical, 100)
-                   // setTitle()
-               ControlGroup {
-                    
-                    Button("Nigeria") {
-                       // .buttonStyle(.borderedProminent)
-                       // .tint(.white)
-                   }
-                       Button("Venezuela") {
-            
-                   }
-                    
-                }
-                
+                // setTitle()
                 ControlGroup {
                     
-                    Button("Argentina") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+
+                        NavigationLink(destination: SecondView()) {
+                        Text("Nigeria")
                     }
+
+                    NavigationLink(destination: ThirdView()) {
+                    Text("Venezuela")
+                }
+            }
+        }
+                ControlGroup {
                     
-                    Button("India") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+
+                    NavigationLink(destination: ForthView()) {
+                        Text("Argentina")
+                    }
+                    NavigationLink(destination: FifthView()) {
+                        Text("India")
                     }
                 }
-                
+            }
+                .padding(.bottom, 300.0)
                 
             }
         }
-    }
-    
+
+
     struct GameView_Previews: PreviewProvider {
         static var previews: some View {
             GameView()
         }
     }
-}
+

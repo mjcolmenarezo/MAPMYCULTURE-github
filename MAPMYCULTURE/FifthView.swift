@@ -42,7 +42,7 @@ struct FifthView: View {
             .buttonStyle(.borderedProminent)
             .tint(.green)
             
-            Button("Tourism") {
+            Button("Capital") {
                 textTitle = "info"
                 
             }

@@ -32,7 +32,7 @@ struct ContentView: View {
                     Spacer()
 
                     NavigationLink(destination: GameView()) {
-                        Text("Start The Adventure!")
+                        Text("Start the adventure!")
                             .font(.title)
                             .foregroundColor(Color.green)
                             .padding(.bottom, 150.0)

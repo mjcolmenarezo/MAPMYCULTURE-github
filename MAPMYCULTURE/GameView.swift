@@ -15,12 +15,19 @@ struct GameView: View {
 
         
             VStack {
-                Text("Pick A Destination!")
-                    .font(.title)
+                Text("Pick a destination!")
+                    .font(.largeTitle)
+                    .fontWeight(.black)
+                    .foregroundColor(Color.blue)
                     .multilineTextAlignment(.center)
+                    .padding(.top, 80.0)
                 Spacer()
-                    .padding(.vertical, 100)
-                // setTitle()
+                    
+                
+                Image("map")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                
                 ControlGroup {
                     
 
@@ -44,7 +51,7 @@ struct GameView: View {
                     }
                 }
             }
-                .padding(.bottom, 300.0)
+                .padding(.bottom, 200.0)
                 
             }
         }
